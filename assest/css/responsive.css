@@ -1,0 +1,123 @@
+@media (max-width: 992px) {
+  /* navbar toggle */
+  .nav-toggle {
+    display: block;
+    text-align: right;
+  }
+  .nav-toggle button {
+    background: transparent;
+    font-size: 25px;
+    border: none;
+    border-radius: 4px;
+    padding: 2px 6px;
+    cursor: pointer;
+  }
+  .nav-toggle {
+    flex-basis: 50%;
+    align-self: end;
+  }
+  /*  */
+  .header-area .container {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .logo,
+  .nav-toggle,
+  .navaigation-bar {
+    flex-basis: 50%;
+  }
+  .navaigation-bar {
+    flex-direction: column;
+  }
+  .navaigation-bar ul {
+    flex-direction: column;
+  }
+  header nav.navaigation-bar {
+    align-items: start;
+  }
+  .navaigation-bar ul li {
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+  .header-area .container {
+    align-items: start;
+  }
+  header nav.navaigation-bar {
+    margin-top: 20px;
+    align-self: center;
+    display: none;
+  }
+  .searchBtn button {
+    width: 150px;
+    justify-content: flex-start;
+  }
+  /* hero */
+  .hero-contents {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero-cards {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    grid-column-gap: 30px;
+  }
+  .hero-card button {
+    margin-bottom: 20px;
+  }
+  /* category section */
+  .category-items {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .hero-cards-area {
+    margin-top: -50px;
+  }
+  /* trending news */
+  .trending-items {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .trending-content {
+    order: 2;
+  }
+  .trending-image {
+    order: 1;
+  }
+  /* artcle section */
+  .article-items {
+    grid-template-columns: 100%;
+  }
+  .article-item > img {
+    width: 100%;
+  }
+  footer .container {
+    grid-row-gap: 30px;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .news-letter-section > .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 30px;
+  }
+  .newsletter-content {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-cards {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+  .trending-image img {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+}
